@@ -1,7 +1,7 @@
-timezone:    Europe/Berlin
+timezone:    Asia/South Korea
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     "/github-slideshow"
+baseurl:     "/myslide"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -58,7 +58,7 @@ reveal:
   ## Enables touch navigation on devices with touch input
   touch: true
   ## Loop the presentation
-  loop: false
+  loop: true
   ## Change the presentation direction to be RTL
   #rtl: false
   ## Turns fragments on and off globally
@@ -93,8 +93,8 @@ reveal:
   ## The "normal" size of the presentation, aspect ratio will be preserved
   ## when the presentation is scaled to fit different resolutions. Can be
   ## specified using percentage units.
-  width: 1000
-  height: 920
+  width: 500
+  height: 410
   ## Factor of the display size that should remain empty around the content
   margin: 0.1
   ## Bounds for smallest/largest possible scale to apply to content
